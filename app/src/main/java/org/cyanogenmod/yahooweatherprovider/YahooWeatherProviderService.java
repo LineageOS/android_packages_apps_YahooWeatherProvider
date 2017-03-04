@@ -179,7 +179,7 @@ public class YahooWeatherProviderService extends WeatherProviderService
                     location.getLongitude(), 1);
             Address address = addresses.get(0);
             Call<YQLResponse> wundergroundCall =
-                    mYahooWeatherServiceManager.query(address.getCountryName(),
+                    mYahooWeatherServiceManager.query(address.getCountryCode(),
                             address.getLocality());
             wundergroundCall.enqueue(new YahooWeatherRequestCallback(serviceRequest, this));
         } catch (IOException e) {
