@@ -5,4 +5,5 @@
   <string name="about_preference_category_title">Tentang</string>
   <string name="about_preference">Hak Cipta</string>
   <string name="about_preference_summary">YAHOO! adalah merek dagang terdaftar dari Yahoo! Inc. baik di Amerika Serikat dan Internasional.</string>
+  <string name="customization_preference_category_title">Kustomisasi</string>
 </resources>
