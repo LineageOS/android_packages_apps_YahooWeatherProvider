@@ -4,5 +4,6 @@
   <string name="app_name">야후 날씨 공급자</string>
   <string name="about_preference_category_title">정보</string>
   <string name="about_preference">저작권</string>
+  <string name="about_preference_summary">YAHOO!는 미국 및 기타 국가에 등록된 Yahoo! Inc.의 상표입니다.</string>
   <string name="customization_preference_category_title">사용자 정의</string>
 </resources>
