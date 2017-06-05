@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Yahoo Weather Provider</string>
+    <string name="app_name">Yahoo Weather</string>
 
     <string name="about_preference_category_title">About</string>
     <string name="about_preference">Copyright</string>
