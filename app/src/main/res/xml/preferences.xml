@@ -17,7 +17,7 @@
             android:key="about_key"
             android:title="@string/about_preference"
             android:summary="@string/about_preference_summary" />
-        <org.cyanogenmod.yahooweatherprovider.ImagePreference
+        <org.lineageos.yahooweatherprovider.ImagePreference
             android:key="image_key"/>
     </PreferenceCategory>
 
