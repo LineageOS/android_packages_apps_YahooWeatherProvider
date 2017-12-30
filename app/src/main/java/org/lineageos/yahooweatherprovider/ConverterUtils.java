@@ -27,14 +27,14 @@ import org.lineageos.yahooweatherprovider.yahoo.response.Postal;
 import java.util.ArrayList;
 import java.util.List;
 
-import cyanogenmod.providers.WeatherContract;
-import cyanogenmod.weather.WeatherInfo;
-import cyanogenmod.weather.WeatherLocation;
+import lineageos.providers.WeatherContract;
+import lineageos.weather.WeatherInfo;
+import lineageos.weather.WeatherLocation;
 
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.ISOLATED_THUNDERSHOWERS;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.NOT_AVAILABLE;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_SNOW_SHOWERS;
-import static cyanogenmod.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_THUNDERSTORMS;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.ISOLATED_THUNDERSHOWERS;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.NOT_AVAILABLE;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_SNOW_SHOWERS;
+import static lineageos.providers.WeatherContract.WeatherColumns.WeatherCode.SCATTERED_THUNDERSTORMS;
 
 public class ConverterUtils {
 

@@ -18,7 +18,7 @@ package org.lineageos.yahooweatherprovider.yahoo;
 
 import org.lineageos.yahooweatherprovider.yahoo.response.YQLResponse;
 
-import cyanogenmod.weatherservice.ServiceRequest;
+import lineageos.weatherservice.ServiceRequest;
 
 
 public interface YahooWeatherResponseListener {
