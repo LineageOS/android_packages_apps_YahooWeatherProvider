@@ -26,6 +26,7 @@ android {
 }
 
 dependencies {
+    annotationProcessor 'com.squareup.dagger:dagger-compiler:1.2.2'
     compile 'com.squareup.retrofit2:retrofit:2.0.1'
     compile 'com.squareup.retrofit2:converter-gson:2.0.1'
     compile 'org.lineageos:platform.sdk:8.+'
