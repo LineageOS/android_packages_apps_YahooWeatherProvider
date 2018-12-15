@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 27
 
     defaultConfig {
         applicationId "org.lineageos.yahooweatherprovider"
-        minSdkVersion 23
-        targetSdkVersion 25
+        minSdkVersion 27
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
     }
@@ -17,15 +16,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    lintOptions.disable 'MissingTranslation'
+    lintOptions {
+        // These depend on translations
+        disable 'MissingTranslation'
+    }
 }
 
 dependencies {
-    compile 'com.squareup.retrofit2:retrofit:2.0.1'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.1'
-    compile 'org.lineageos:platform.sdk:8.+'
-    compile 'com.squareup.okhttp3:okhttp:3.2.0'
-    compile 'com.squareup.dagger:dagger-compiler:1.2.2'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.0.1'
-    compile 'com.google.code.gson:gson:2.7'
+    implementation project(':org.lineageos.platform.sdk')
+    implementation 'com.squareup.retrofit2:retrofit:2.0.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation 'com.squareup.dagger:dagger-compiler:1.2.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.0.1'
+    implementation 'com.google.code.gson:gson:2.7'
 }
